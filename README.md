@@ -10,6 +10,14 @@ and time series models are applied to forecast future activity.
 - File used: reviews.csv
 - Aggregation: Monthly review counts
 
+  
+## Data Availability
+The raw reviews dataset (~500MB) is provided by Inside Airbnb and is not
+included in this repository due to GitHub file size limitations.
+The dataset can be accessed directly from the Inside Airbnb website
+(Lisbon listings). This repository includes the processed monthly demand
+data used for analysis.
+
 ## Methodology
 1. Data preprocessing and time aggregation
 2. Exploratory time series analysis
