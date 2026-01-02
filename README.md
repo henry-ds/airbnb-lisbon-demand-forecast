@@ -17,9 +17,10 @@ and time series models are applied to forecast future activity.
 4. SARIMA forecasting and evaluation
 
 ## Results
-The analysis reveals strong seasonal patterns with demand peaking during
-summer months. SARIMA models effectively capture trend and seasonality,
-providing useful forecasts for decision-making.
+* The analysis reveals strong seasonal patterns with demand peaking during
+summer months.
+* SARIMA captured both trend and seasonal components effectively
+* Forecasts can support pricing, staffing, and availability decisions
 
 ## Tools
 Python, pandas, statsmodels, matplotlib, GitHub
