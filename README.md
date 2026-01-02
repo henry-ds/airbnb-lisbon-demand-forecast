@@ -18,7 +18,7 @@ and time series models are applied to forecast future activity.
 
 ## Results
 * The analysis reveals strong seasonal patterns with demand peaking during
-summer months.
+summer months
 * SARIMA captured both trend and seasonal components effectively
 * Forecasts can support pricing, staffing, and availability decisions
 
