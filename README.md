@@ -1,28 +1,46 @@
-# Airbnb Demand Forecasting – Lisbon, Portugal
+# Time Series Forecasting of Airbnb Demand in Lisbon
 
-## Overview
-This project analyzes temporal demand patterns in Airbnb listings using
-historical review data from Lisbon. Reviews are used as a proxy for demand,
-and time series models are applied to forecast future activity.
+## Project Overview
 
-## Dataset
-- Source: Inside Airbnb (Lisbon)
-- File used: reviews.csv
-- Aggregation: Monthly review counts
+This project analyzes and forecasts Airbnb demand in Lisbon, Portugal, using
+monthly aggregated review data as a proxy for booking activity. The objective is
+to explore temporal demand patterns and develop statistical forecasting models
+capable of capturing trend and seasonality in a tourism-driven market.
 
-  
-## Data Availability
-The raw reviews dataset (~500MB) is provided by Inside Airbnb and is not
-included in this repository due to GitHub file size limitations.
-The dataset can be accessed directly from the Inside Airbnb website
-(Lisbon listings). This repository includes the processed monthly demand
-data used for analysis.
+The project follows a structured data science workflow, including data
+preprocessing, exploratory time series analysis, and demand forecasting using
+seasonal statistical models.
+
+## Data Source
+
+The raw dataset is obtained from the **Inside Airbnb** initiative, which provides
+open-access data for research and policy analysis. The dataset contains individual
+guest review records for Airbnb listings in Lisbon.
+
+Due to its large size (~500MB), the raw dataset is processed locally and is not
+included in this repository. Only aggregated and lightweight processed data are
+stored to ensure reproducibility while respecting GitHub storage constraints.
 
 ## Methodology
-1. Data preprocessing and time aggregation
-2. Exploratory time series analysis
-3. Seasonal decomposition
-4. SARIMA forecasting and evaluation
+
+The analysis is divided into three main stages, each documented in a separate
+notebook:
+
+### 1. Data Preprocessing
+- Conversion of review timestamps to datetime format  
+- Temporal aggregation of reviews at a monthly frequency  
+- Construction of a time series representing monthly Airbnb demand  
+
+### 2. Exploratory Time Series Analysis
+- Visualization of long-term demand trends  
+- Seasonal decomposition into trend, seasonal, and residual components  
+- Identification of strong annual seasonality consistent with tourism patterns  
+
+### 3. Demand Forecasting
+- Train-test split with out-of-sample evaluation  
+- Application of Seasonal ARIMA (SARIMA) models  
+- Forecast evaluation using MAE and RMSE metrics  
+- Visual comparison of forecasted and observed demand  
 
 ## Results
 * The analysis reveals strong seasonal patterns with demand peaking during
@@ -35,4 +53,3 @@ Python, pandas, statsmodels, matplotlib, GitHub
 
 ## Author
 Anumba Emeka Henry
-
