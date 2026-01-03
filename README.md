@@ -42,14 +42,31 @@ notebook:
 - Forecast evaluation using MAE and RMSE metrics  
 - Visual comparison of forecasted and observed demand  
 
-## Results
-* The analysis reveals strong seasonal patterns with demand peaking during
-summer months
-* SARIMA captured both trend and seasonal components effectively
-* Forecasts can support pricing, staffing, and availability decisions
+## Key Findings
 
-## Tools
-Python, pandas, statsmodels, matplotlib, GitHub
+- Airbnb demand in Lisbon exhibits strong annual seasonality, with peak activity
+  during summer months.
+- Seasonal decomposition confirms the presence of both long-term trends and
+  regular seasonal patterns.
+- SARIMA models effectively capture the seasonal structure of demand and provide
+  reasonable short-term forecasts.
+
+## Tools and Technologies
+
+- Python  
+- pandas, numpy  
+- matplotlib, seaborn  
+- statsmodels  
+- scikit-learn  
+- Jupyter Notebook  
+
+## Notes on Reproducibility
+
+The raw dataset is not included due to size constraints. Users may download the
+Lisbon reviews dataset directly from the Inside Airbnb website and adjust file
+paths in the preprocessing notebook if full replication is desired.
 
 ## Author
+
 Anumba Emeka Henry
+Aspiring MSc Data Science student 
