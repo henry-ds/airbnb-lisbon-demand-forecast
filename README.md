@@ -70,4 +70,4 @@ paths in the preprocessing notebook if full replication is desired.
 
 Anumba Emeka Henry
 
-Aspiring MSc Data Science student 
+Aspiring Data Scientist | Data-Driven Marketing Enthusiast
