@@ -68,6 +68,6 @@ paths in the preprocessing notebook if full replication is desired.
 
 ## Author
 
-Anumba Emeka Henry
+Emeka Henry Anumba 
 
 Data Analyst | Data Science & Customer Analytics
